@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+   background: #2eb37b;
+    
+}
+nav {
+    margin:auto;
+    text-align: right;
+    width: 100%;
+    font-family: arial;
+} 
+nav ul {
+    background:white;
+    padding: 0 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    margin-right: 100%;
+ }
+nav ul li{
+    float:right;
+    margin-right: 3%;
+}
+nav ul li:hover{
+    background:#2eb37b;
+}
+nav ul li:hover a{
+     color:rgb(255, 255, 255);
+}
+nav ul li a{
+     display: block;
+     padding: 20px;
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+}
+
+@media screen and (max-width:640px){
+    img{
+        width: 100%;
+        align-content: center;
+    
+    }
+}
+.mengenai{
+    max-width: 40%;
+    margin-top: 3%;
+    text-align: justify;
+    margin-left: 2%;
+}
+img{
+    margin-left: 45%;
+    margin-top: -39%;
+    width: 799px;
+    height: 601px;
+}
